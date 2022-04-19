@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Jogo Da Velha</title>
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <div class="row1">
+        <div id="1" class="box" onclick="escolherBox(this.id)">+</div>
+        <div id="2" class="box" onclick="escolherBox(this.id)">+</div>
+        <div id="3" class="box" onclick="escolherBox(this.id)">+</div>
+    </div>
+    <div class="row2">
+        <div id="4" class="box" onclick="escolherBox(this.id)">+</div>
+        <div id="5" class="box" onclick="escolherBox(this.id)">+</div>
+        <div id="6" class="box" onclick="escolherBox(this.id)">+</div>
+    </div>
+    <div class="row3">
+        <div id="7" class="box" onclick="escolherBox(this.id)">+</div>
+        <div id="8" class="box" onclick="escolherBox(this.id)">+</div>
+        <div id="9" class="box" onclick="escolherBox(this.id)">+</div>
+    </div>
+    <div class="jogador">
+        <label for="">Jogador:</label>
+        <label id="jogador-selecionado"></label>
+    </div>
+    <div class="vencedor">
+        <label for="">Vencedor:</label>
+        <label id="vencedor"></label>
+    </div>
+    <div>
+        <button onclick="reiniciaJogo()">Iniciar</button>
+    </div>
+    <script src="./script/main.js"></script>
+</body>
+</html>
